@@ -89,7 +89,7 @@ I just made a [Dockerfile](https://docs.docker.com/engine/reference/builder/) to
 Steps
 
 1. Download the [Dockerfile](https://github.com/lerker/OpenSourceVS/blob/master/Dockerfile/Dockerfile)
-2. Build the image, docker `$ build -t videoresumen:1.0 .`
+2. Build the image, docker `$ docker build -t videoresumen:1.0 .`
 3. Run the container, `$ docker run -it --name VideoResumen videoresumen:1.0 /bin/bash`
 4. In container promt, `./opensourcevs`
 
