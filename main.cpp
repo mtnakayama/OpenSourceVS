@@ -49,8 +49,8 @@ SALIDA_NOMBRE		:= nombre del video de salida (.AVI)
 RATIO 				:= factor de escala para achicar el video o salida. (=2.0 mas rapido; =1.0 mas lento)
 **/
 //
-#define DEBUG false
-#define MAS_INFO false
+#define DEBUG true
+#define MAS_INFO true
 
 // fondo
 #define FONDO_PASOS_SEG 1
