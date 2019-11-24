@@ -76,6 +76,9 @@ sudo apt-get update
 sudo apt-get install -y build-essential cmake git ca-certificates wget unzip pkg-config libgtk2.0-dev libavcodec-dev libavformat-dev libswscale-dev libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libqt4-dev libqt4-opengl-dev libeigen3-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev libv4l-dev libdc1394-22-dev libavcodec-dev libavformat-dev qt4-default libvtk5-qt4-dev libgtk2.0-dev libgtkglext1 libgtkglext1-dev libpng3 pngtools libpng++-dev libjpeg-dev libjpeg-progs libjpeg9 libjpeg9-dbg libjasper-dev libjasper-runtime libjasper1 zlib1g-dbg zlib1g-dev libavformat-dev libavutil-dev libxine2-dev libxine2 libswscale-dev libswscale-ffmpeg3 libdc1394-22 libdc1394-22-dev libdc1394-utils libavcodec-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev ffmpeg x264 libx264-dev libv4l-0 v4l-utils libavutil-ffmpeg54
 ```
 
+#### Install OpenCV
+(Refer to Dockerfile for OpenCV build process.)
+
 ### Compile
 ```bash
 $ cd OpenSourceVS/
