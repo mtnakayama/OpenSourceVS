@@ -68,7 +68,7 @@ RATIO 				:= factor de escala para achicar el video o salida. (=2.0 mas rapido; 
 #define DELAY_EVENTOS 10
 #define MOSTRAR_RESULTADO true
 #define CANTIDAD_EVENTOS 30
-#define EVENTOS_SEG true // seleeciono los videos con algun criterio
+#define EVENTOS_SEG false // seleeciono los videos con algun criterio
 #define EVENTOS_SEGUNDOS true
 
 // videos
