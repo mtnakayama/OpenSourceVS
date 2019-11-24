@@ -116,7 +116,7 @@ int main()
 	int morph_elem = 1, // rectangular
 		morph_size = 2,
 //		ratio = 2,
-		next_id = 1; //id único global para cada objeto que sea detectado en el video
+		next_id = 1; //id Ãºnico global para cada objeto que sea detectado en el video
 	
 	bool flag = true;
 	
@@ -193,7 +193,7 @@ int main()
 		
 		Mat frame_actual;
 		resize(frame2, frame_actual, Size(frame.size().width/RATIO, frame.size().height/RATIO) );
-		// salida2 el frame leido peque�o
+		// salida2 el frame leido pequeño
 		
 		// calcula el fondo, cada # frames actualiza el valor
 		if ( !(n % fondo_pasos_frames) )
@@ -257,6 +257,7 @@ int main()
 	
 #if FONDO_MOSTRAR
 	imshow("EXTRACCION DEL FONDO",fondo_temporal);
+	cout << "Press key in window to continue" << endl;
 	waitKey(0);
 #endif
 	// guardo el fondo a disco
@@ -297,6 +298,7 @@ int main()
 	cout << "\n frames entre eventos: \t" << 									DELAY_EVENTOS;
 	cout << "\n ratio del proceso: \t" << 										RATIO;
 	cout << "\n cantidad de objetos a visualizar juntos p/frame: " << 		CANTIDAD_EVENTOS;								
+	cout << "Press key in window to continue" << endl;
 	waitKey(0);
 	///-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
 	
